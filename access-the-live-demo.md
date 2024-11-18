@@ -145,6 +145,7 @@ If you want to clone and set up this project locally, follow these steps:
 ## Contributors
 
 - **Emmanuel Macaulay** - Lead Developer & Architect
+- **Hadiza Oladipupo** - Mental Health Advocate & CareGiver
 
 ## License
 
