@@ -89,6 +89,13 @@ You can interact with the chatbot by visiting the hosted project link above. Her
      ```
    - Expected Response: The bot responds with appreciation, encouraging you to reach out anytime you need support.
 
+![Demo Screenshots 1](1.png)
+![Demo Screenshots 2](2.png)
+![Demo Screenshots 3](3.png)
+![Demo Screenshots 4](4.png)
+![Demo Screenshots 5](5.png)
+![Demo Screenshots 6](6.png)
+
 ## Project Setup (For Developers)
 
 If you want to clone and set up this project locally, follow these steps:
