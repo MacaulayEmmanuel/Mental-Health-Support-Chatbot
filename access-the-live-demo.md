@@ -113,7 +113,7 @@ If you want to clone and set up this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/mental-health-chatbot.git
+   git clone https://github.com/MacaulayEmmanuel/mental-health-chatbot.git
    cd mental-health-chatbot
    ```
 
