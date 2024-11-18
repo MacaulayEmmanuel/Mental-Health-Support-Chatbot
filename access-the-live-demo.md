@@ -89,7 +89,10 @@ You can interact with the chatbot by visiting the hosted project link above. Her
      ```
    - Expected Response: The bot responds with appreciation, encouraging you to reach out anytime you need support.
 
+
 **Screenshots**
+
+
 ![Demo Screenshots 1](1.png)
 ![Demo Screenshots 2](2.png)
 ![Demo Screenshots 3](3.png)
