@@ -41,9 +41,9 @@ The solution uses a serverless architecture that integrates various AWS services
 - **Stress-Relief Techniques**: Offers coping strategies like breathing exercises, positive affirmations, and mindfulness tips.
 
 ## 🛠️ Tech Stack
-- **Frontend**: HTML5, JavaScript
+- **Frontend**: HTML5, CSS
 - **Cloud Services**: AWS (Amazon Lex, AWS Lambda, Amazon DynamoDB, Amazon S3)
-- **APIs**: Kommunicate for chatbot integration (if applicable)
+- **APIs**: Kommunicate for chatbot integration
 
 ## 🚀 Getting Started
 
