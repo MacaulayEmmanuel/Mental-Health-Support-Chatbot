@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HadyCares - Mental Health Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left-section {
+            width: 40%;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 2rem;
+        }
+        .left-section h1 {
+            color: #4a47a3;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .left-section p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+        .left-section .cta-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #4a47a3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .left-section .cta-button:hover {
+            background-color: #6a67d8;
+        }
+        .chatbot-widget {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HadyCares - Mental Health Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left-section {
+            width: 40%;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 2rem;
+        }
+        .left-section h1 {
+            color: #4a47a3;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .left-section p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+        .left-section .cta-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #4a47a3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .left-section .cta-button:hover {
+            background-color: #6a67d8;
+        }
+        .chatbot-widget {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Welcome to HadyCares</h1>
+            <p>We're here to support your mental well-being. Whether you're feeling stressed, anxious, or just need someone to talk to, HadyCares is here for you.</p>
+            <p>Chat with our friendly support bot for instant guidance, resources, and a listening ear. Remember, you're not alone on this journey.</p>
+            <a href="#chatbot" class="cta-button">Start Chatting Now</a>
+        </div>
+
+        <!-- Chatbot Widget -->
+        <div class="chatbot-widget">
+            <div id="kommunicate-chat-widget"></div>
+        </div>
+    </div>
+
+    <!-- Kommunicate Chatbot Integration Script -->
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"10fc48521a6e14dbd1b3c55c0cbb1698d","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+    </script>
+</body>
+</html>
